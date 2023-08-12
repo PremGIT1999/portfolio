@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">Kopay North,Kopay</div>
+                        <div class="text-two">Jaffna</div>
+                    </div>
+
+                    <div class="phone details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+94766797330</div>
+                        <div class="text-two">+94709873433</div>
+                    </div>
+
+                    <div class="email details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">15laxsan@gmail.com</div>
+                        <div class="text-two">info.premsp@gmail.com</div>
+                    </div>
+                </div>
+                 
+                <div class="right-side">
+                    <div class="topic-text">Register Here For Your Project Consultation</div>
+                     
+                   
+                <form action="contactme.php" method="POST">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Enter your name">
+                </div>
+                <br>
+                <div class="input-box">
+                    <input type="text" name="Email" placeholder="Enter your email">
+                </div>
+                <br>
+                <div class="input-box message-box">
+                     <textarea name="Message" placeholder="Enter your Future Project Idea shortly"></textarea>
+                </div>
+                
+                <button class="nextBtn" onclick="Pay()">
+                    <span class="btnText">Send Now</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+
+                <script>
+                    function Send()
+                    {
+                        window.location.href="Homepage.html";
+                    }
+                </script>
+                </form>
+            </div>
+              
+            </div>
+        </div>
+    </body>
+</html>
